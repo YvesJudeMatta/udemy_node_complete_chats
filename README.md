@@ -88,5 +88,5 @@ $ git push heroku master
 
 
 [udemy-course]: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
-[hosted-url]: https://node-complete-chats.herokuapp.com/chat.html?username=Yves&room=121
+[hosted-url]: http://node-complete-chats.herokuapp.com/
 [install-heroku]: https://devcenter.heroku.com/articles/heroku-cli
