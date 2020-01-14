@@ -27,32 +27,49 @@ Start server
 $ npm run dev
 ```
 
+You should now be able to preview the app on `localhost:3000`
+
 ## Deployment
 
-- [Install Heroku Cli][install-heroku]
+### Heroku Prerequisites
 
-- Create a Heroku account
+[Install Heroku Cli][install-heroku]
 
-- Login via heroku cli
+Create a Heroku account
+
+Login via Heroku cli
 
 ```
 $ heroku login
 ```
 
-- Create heroku app with heroku-cli and replace `{app_name}` with your preference or choose to omit it for a randomly generated name
+### Create OR use existing heroku app
+
+Create Heroku app with heroku-cli and replace `{app_name}` with your preference or choose to omit it for a randomly generated name
 
 ```
 $ heroku create {app_name}
 ```
 
-- Push to heroku remote
+Use existing Heroku app with heroku-cli and replace `{app_name}` with your Heroku app name
+
+```
+$ heroku git:remote -a {app_name}
+```
+
+### Verify Heroku remote
+
+You should see (fetch) and (push) for `heroku` along with your `origin` remote with the following command
+
+```
+$ git remote -v
+```
+
+### Push to Heroku remote
 
 ```
 $ git push heroku master
 ```
-
-
-Create
 
 ## Tech stack
 
