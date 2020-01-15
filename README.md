@@ -4,7 +4,7 @@
 
 Node application using web sockets to allow users to chat within chat rooms. Built while following a udemy course [The Complete Node.js Developer Course (3rd Edition)][udemy-course].
 
-It hosted on Heroku at this [url][hosted-url].
+Code is written while following [The Complete Node.js Developer Course (3rd Edition)][udemy-course]
 
 ## Run locally
 
@@ -88,5 +88,4 @@ $ git push heroku master
 
 
 [udemy-course]: https://www.udemy.com/course/the-complete-nodejs-developer-course-2/
-[hosted-url]: http://node-complete-chats.herokuapp.com/
 [install-heroku]: https://devcenter.heroku.com/articles/heroku-cli
